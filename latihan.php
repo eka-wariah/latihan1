@@ -18,5 +18,10 @@
 			echo $zhg;
 		}
 	}*/
+	$gararetek = ["Lay", 1 , "chanyeol", 2];
+
+	foreach ($gararetek as $asd) {
+		echo $asd."<br>";
+	}
 
 ?>
