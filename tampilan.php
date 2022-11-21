@@ -11,9 +11,13 @@
 	<input type="text" name="nama_belakang">
 	<input type="submit" value="kirim">
 </form> -->
-<form action="proses.php" method="GET">
+<!-- <form action="percabangan.php" method="GET">
 	<input type="text" name="nama_depan">
 	<input type="text" name="nama_belakang">
+	<input type="submit" value="kirim">
+</form> -->
+<form action="percabangan.php" method="GET">
+	<input type="text" name="nilai">
 	<input type="submit" value="kirim">
 </form>
 </body>
