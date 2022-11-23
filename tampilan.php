@@ -16,8 +16,8 @@
 	<input type="text" name="nama_belakang">
 	<input type="submit" value="kirim">
 </form> -->
-<form action="percabangan.php" method="GET">
-	<input type="text" name="nilai">
+<form action="coba1.php" method="POST">
+	<input type="name" name="nama">
 	<input type="submit" value="kirim">
 </form>
 </body>
