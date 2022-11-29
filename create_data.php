@@ -4,6 +4,7 @@ include 'coba2.php';
 // $nama = "zhang";
 // $kelas = "ti2";
 // $nilai = 90 ;
+
 $nama = $_GET['nama'];
 $kelas = $_GET['kelas'];
 $nilai = $_GET['nilai'];

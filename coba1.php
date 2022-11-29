@@ -2,7 +2,7 @@
 
 include 'coba2.php';
 
-$nama = $_POST['nama'];
+//$nama = $_POST['nama'];
 $data = mysqli_query($koneksi,"SELECT * FROM `coba1`");
 
 	// if ($data == true) {
@@ -16,7 +16,9 @@ foreach ($data as $data) {
  	echo $data['kelas']."&nbsp";
  	echo $data['nilai'];
  	?>
- 	<a href="proses.php?id=<?php echo $data['id'] ?>">delete</a><br>
+ 	<a href="proses.php?id=<?php echo $data['id'] ?>">delete</a>
+ 	<a href="tampilan.php?id=<?php echo $data['id'] ?>">update</a><br>
+
  	<?php
  }
 
